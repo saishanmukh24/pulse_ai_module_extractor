@@ -1,0 +1,70 @@
+[
+  {
+    "module": "Help Center",
+    "Description": "Explore our Help Center for quick answers, detailed guides, and troubleshooting tips—all designed to help you get the most value out of Zluri and streamline your Identity Governance journey.",
+    "Submodules": {
+      "Getting Started": "New to Zluri? Start here to set up your account and configure your organization’s settings",
+      "Application Management": "Discover, monitor, and manage all SaaS applications across your organization",
+      "User Management": "View and manage the users in your organization",
+      "Cost Management": "Track SaaS spending, manage contract renewals, and right-size licenses based on usage",
+      "Access Provisioning": "Automate employee onboarding and offboarding using no-code workflows",
+      "Access Requests": "Automate app access for employees with self-service requests and approval workflows",
+      "Access Reviews": "Learn how to stay audit-ready through fully automated access reviews",
+      "Integrations": "Step-by-step instructions to connect your existing apps and systems with Zluri",
+      "Workflows & Automations": "Learn how to set up and run no-code workflow automations to streamline IT operations",
+      "Settings": "Manage your account, organization, billing, and configure Zluri according to your preferences",
+      "Popular Resources": "Getting started with Zluri is quick and easy. Here's how Integrate Google Workspace with Zluri Integrate Azure AD with Zluri",
+      "Recently Added": "Automatically assign licenses, and add new employees to groups Integrate custom API endpoints with Zluri with our free, easy-to-use SDK Integrate Slack with Zluri",
+      "Still have questions?": "Our team is ready to assist you with any technical issues or questions"
+    }
+  },
+  {
+    "module": "🤝 Zluri + Slack",
+    "Description": "Zluri lets you discover which users have Slack accounts, how frequently they use them, and optimize spendings based on this data. You can also create and automate onboarding and offboarding workflows for team members, and automatically assign users to specific groups depending on their profile.",
+    "Submodules": {
+      "🖇️Integration": "Connecting Slack to Zluri is quick and painless. Check out ourstep-by-step instructions."
+    }
+  },
+  {
+    "module": "Prerequisites",
+    "Description": "Workspace primary owner,Workspace owner, orWorkspace adminprivileges in Slack SlackFree,Pro, orBusiness+subscription",
+    "Submodules": {
+      "Integration steps": "Sign into Slack Sign into Slack Open Zluri’sIntegrations Catalog,search for “slack”, and click➕ Connect Open Zluri’sIntegrations Catalog,search for “slack”, and click➕ Connect Choose the scopes for the integration, and clickConnect. You can click the down-arrow button towards the right of a scope to find out what it does.If you don’t haveWorkspace primary owner,Workspace owner, orWorkspace adminprivileges in Slack, click theSend to a Co-workerbutton to invite someone who does. Choose the scopes for the integration, and clickConnect. You can click the down-arrow button towards the right of a scope to find out what it does. If you don’t haveWorkspace primary owner,Workspace owner, orWorkspace adminprivileges in Slack, click theSend to a Co-workerbutton to invite someone who does. Approve the connection in the Slack popup window. Approve the connection in the Slack popup window. Give the connection a name and description, and you’re ready to go!Why Slack Shows “This App Is Not Approved by Slack”When connecting Slack to Zluri, Slack may show a message like:“This app is not approved by Slack”This is expected because the Zluri Slack app is acustom/private appbuilt by Zluri and not listed in the official Slack App Directory.This doesnotmean the app is unsafe. It means:The app has not been published publicly on Slack’s marketplaceSlack displays the warning for all private appsAll requested scopes are transparent and shown in Zluri’s UIHow to Connect the App Without SurprisesReview the scopes on the Slack authorization screen.\nZluri only requests admin-level scopes needed to fetch audit logs, integration logs, and workspace usage data.If your Slack workspace blocks unapproved apps:Go toSlack Admin Console → Settings → Manage AppsLocateZluri Slack AppClickApproveRetry the integration from ZluriIf you lack admin rights, use theSend to a Co-workerfeature in Zluri to invite a Slack admin to complete the authorization.📝Important:Admin scopes areread-only by default. Zluri cannot modify users or settings unless you explicitly configure provisioning/deprovisioning workflows. Give the connection a name and description, and you’re ready to go!",
+      "Why Slack Shows “This App Is Not Approved by Slack”": "When connecting Slack to Zluri, Slack may show a message like: “This app is not approved by Slack”This is expected because the Zluri Slack app is acustom/private appbuilt by Zluri and not listed in the official Slack App Directory. This doesnotmean the app is unsafe. It means: The app has not been published publicly on Slack’s marketplace Slack displays the warning for all private apps All requested scopes are transparent and shown in Zluri’s UI",
+      "How to Connect the App Without Surprises": "Review the scopes on the Slack authorization screen.\nZluri only requests admin-level scopes needed to fetch audit logs, integration logs, and workspace usage data. If your Slack workspace blocks unapproved apps:Go toSlack Admin Console → Settings → Manage AppsLocateZluri Slack AppClickApproveRetry the integration from Zluri Go toSlack Admin Console → Settings → Manage Apps LocateZluri Slack App ClickApprove Retry the integration from Zluri If you lack admin rights, use theSend to a Co-workerfeature in Zluri to invite a Slack admin to complete the authorization.",
+      "Important:Admin scopes areread-only by default. Zluri cannot modify users or settings unless you explicitly configure provisioning/deprovisioning workflows.": "Got questions? Feel free tosubmit a ticketor contact us directly at[email protected]. Updated3 months ago",
+      "Connect the Slack Enterprise instance in Zluri": "Open Zluri’sIntegrations Catalog, search for “slack enterprise”, and click➕ Connect. Open Zluri’sIntegrations Catalog, search for “slack enterprise”, and click➕ Connect. Choose the scopes for the integration, and clickConnect it myself. You can click the down-arrow button towards the right of a scope to find out what it does. Choose the scopes for the integration, and clickConnect it myself. You can click the down-arrow button towards the right of a scope to find out what it does. Approve the connection in the Slack authorization window. Sign in if prompted. Approve the connection in the Slack authorization window. Sign in if prompted. Give the connection a name and description. Give the connection a name and description.",
+      "Add Zluri to your Slack workspace(s)": "In Slack, go to your Workspace Directory atcompanyname.enterprise.slack.com(replacecompanynamewith your actual organization subdomain). In Slack, go to your Workspace Directory atcompanyname.enterprise.slack.com(replacecompanynamewith your actual organization subdomain). SelectManage Organizationin the top-right corner. SelectManage Organizationin the top-right corner. Navigate toIntegrations→Installed apps. Navigate toIntegrations→Installed apps. Click the three-dot icon to the right of theZluriapp and selectAdd to more workspaces. Click the three-dot icon to the right of theZluriapp and selectAdd to more workspaces. Tick the box(es) next to the workspace(s) where you’d like to add the app and clickNext. Tick the box(es) next to the workspace(s) where you’d like to add the app and clickNext. To automatically add the app to any new workspaces created in your org, selectDefault for future workspaces. Review the permissions and clickNext. Review the permissions and clickNext. Tick the box next toI’m ready to set this appand clickAdd App.Why Slack Shows “This App Is Not Approved by Slack”When connecting Slack to Zluri, Slack may show a message like:“This app is not approved by Slack”This is expected because the Zluri Slack app is acustom/private appbuilt by Zluri and not listed in the official Slack App Directory.This doesnotmean the app is unsafe. It means:The app has not been published publicly on Slack’s marketplaceSlack displays the warning for all private appsAll requested scopes are transparent and shown in Zluri’s UIHow to Connect the App Without SurprisesReview the scopes on the Slack authorization screen.\nZluri only requests admin-level scopes needed to fetch audit logs, integration logs, and workspace usage data.If your Slack workspace blocks unapproved apps:Go toSlack Admin Console → Settings → Manage AppsLocateZluri Slack AppClickApproveRetry the integration from ZluriIf you lack admin rights, use theSend to a Co-workerfeature in Zluri to invite a Slack admin to complete the authorization.📝Important:Admin scopes areread-only by default. Zluri cannot modify users or settings unless you explicitly configure provisioning/deprovisioning workflows. Tick the box next toI’m ready to set this appand clickAdd App.",
+      "Self-Authorization": "Proceed toStep 4to enter the credentials directly.",
+      "Co-worker Authorization": "Provide the co-worker’s details in Zluri. Zluri sends aninvite linkoremailcontaining aUnique Connect Code. The invited co-worker (Smartsheet admin) uses the code to approve and complete the authorization."
+    }
+  },
+  {
+    "module": "Zluri + Slack Enterprise",
+    "Description": "Zluri lets you discover and manage Slack Enterprise users, workspaces, and channels. You can track user activity, access logs, and billing plans while ensuring compliance with information barriers and audit logs. Zluri enables seamless user management by automating onboarding, offboarding, and role-based access assignments. With Zluri, you can create and manage public and private channels, send direct messages and group messages, and automate notifications and alerts to users or channels. Additionally, you can monitor app requests, view shared files, track emoji reactions, and gain insights into Slack usage across your organization, optimizing costs and security.",
+    "Submodules": {
+      "Integration": "Connecting Slack Enterprise to Zluri is quick and painless. Check out ourstep-by-step instructions."
+    }
+  },
+  {
+    "module": "Zluri + Snyk",
+    "Description": "With direct integration with Snyk, organizations can track which users access Snyk, monitor usage trends, and conduct periodic access audits to maintain security and compliance. Zluri also helps identify inactive accounts and optimize Snyk license utilization. Employees can be automatically assigned to Snyk organizations or groups based on defined attributes such as department, role, or employment status, ensuring proper access management across development and security teams.",
+    "Submodules": {
+      "Integration": "Connecting Snyk to Zluri is quick and straightforward. See thestep-by-step instructions. Updated2 months ago"
+    }
+  },
+  {
+    "module": "Zluri + Smartsheet",
+    "Description": "With direct integration with Smartsheet, organizations can monitor which users access the platform, track activity, and conduct regular access audits to maintain compliance and security. Zluri also provides visibility into Smartsheet license utilization and helps optimize overall spend. Employees can be automatically assigned to Smartsheet groups or workspaces based on defined attributes such as department, role, or employment status, ensuring consistent and secure access management across the organization.",
+    "Submodules": {
+      "Integration": "Connecting Smartsheet to Zluri is quick and efficient. See thestep-by-step instructions."
+    }
+  },
+  {
+    "module": "Zluri + Splunk Cloud",
+    "Description": "Zluri lets you discover and manage users with Splunk accounts, modify the roles they belong to, and monitor login activity. You can also create and automate onboarding and offboarding workflows for team members.",
+    "Submodules": {
+      "Integration": "Connecting Splunk to Zluri is quick and painless. Check out ourstep-by-step instructions."
+    }
+  }
+]
